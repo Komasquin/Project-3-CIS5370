@@ -1,9 +1,10 @@
 # Simple Login System: Two Passwords Required
+# Multi-Attempt Login
 
 # User credentials
 user_db = {
-    "user1": ["pass1", "pass2"],
-    "user2": ["hello1", "world2"],
+    "user1": ["pass1", "pass1"], # Multi-attempt login is defined as using two identical passwords
+    #"user2": ["hello1", "world2"], # Sequence login is defined as using two different passwords
 }
 
 errM = "Username or password are incorrect."
