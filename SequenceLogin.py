@@ -3,7 +3,7 @@
 
 # User credentials
 user_db = {
-    # "user1": ["pass1", "pass1"], # Multi-attempt login is defined as using two identical passwords
+    #"user1": ["pass1", "pass1"], # Multi-attempt login is defined as using two identical passwords
     "user2": ["hello1", "world2"], # Sequence login is defined as using two different passwords
 }
 
@@ -21,10 +21,11 @@ while True:
         continue
     
     # Validate first password
-    password1 = input(prompt)
+    password1 = input(prompt) 
     if password1 != user_db[username][0]:
         print(errM)
         continue
+    print(errM)
     
     # Validate second password
     password2 = input(prompt)
