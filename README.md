@@ -8,6 +8,6 @@
 4. In your terminal, locate the project folder using the commmand, `cd /user/path-to-your-file`. Note your commands may change depending on your operating system. 
 5. Once you have accessed the project folder containing the python programs, type the following command in your terminal, `python3 Multi-AttemptLogin.py`. Your program should now run successfully. 
 
-## Instructions for running Multi-SequenceLogin.py 
+## Instructions for running SequenceLogin.py 
 
 1. After the steps above have been taken, type the command, `python3 SequenceLogin.py`, in your terminal. This should successfully run the Sequence Login program. 
