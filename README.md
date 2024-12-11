@@ -10,4 +10,8 @@
 
 ## Instructions for running SequenceLogin.py 
 
-1. After the steps above have been taken, type the command, `python3 SequenceLogin.py`, in your terminal. This should successfully run the Sequence Login program. 
+1. After following steps 1-4 in the "Instructions for running Multi-AttemptLogin.py" above, in your terminal. This should successfully run the Sequence Login program.
+
+## Instructions for running CombinatorialLogin.py 
+
+1. After following steps 1-4 in the "Instructions for running Multi-AttemptLogin.py" above, type the command, `python3 CombinatorialLogIn.py`, in your terminal. This should successfully run the Combinatorial Login program. 
